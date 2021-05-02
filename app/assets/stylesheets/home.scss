@@ -7,9 +7,9 @@
 
 // ここからヘッダー
 header {
-    color: rgb(107, 38, 5);
-    background-color:rgba( khaki,0.7);
-    height: 80px;
+    color: snow;
+    background-color: rgb(56, 54, 34);
+    height: 60px;
     width: 100%;
 
     position: fixed;
@@ -19,9 +19,9 @@ header {
 
 .header-logo {
   
-  font-size: 30px;
+  font-size: 25px;
   margin: 0px;
-  padding: 20px 38px;
+  padding: 11px 38px;
   float:left;
 }
 
@@ -29,27 +29,28 @@ header {
   float: right;
   font-size: 15px;
   margin: 0px ;
-  padding: 30px 60px;
+  padding: 17px 60px;
 }
 
 .header-right a {
-  margin: 0px 15px;
+  margin: 0px 12px;
   padding: 0px 20px;
-  background-color: saddlebrown;
-  color: snow;
+  color: rgb(56, 54, 34);
+  background-color:snow;
   border-radius: 4px;
+  letter-spacing: 2px;
 }
 
 // ここからメイン
 main {
-    height: 1300px;
-  }
+  height: auto;
+}
 
 // トップラッパー
 .top-wrapper {
     color: snow;
     height: auto;
-    padding: 280px 38px 60px ;
+    padding: 250px 38px 50px ;
     background-image: url(https://media.magic.wizards.com/images/wallpaper/Weatherlight_DAR_1920x1080_Wallpaper.jpg);
     background-size: cover;
     background-position: center;
@@ -58,7 +59,7 @@ main {
 
 .wrapper-text {
     text-shadow:0 5px 5px black;
-}
+ }
 
 .container {
    
@@ -81,7 +82,7 @@ main {
     margin: 20px 0px;
   }
 .btn{
-    font-size: 18px;
+   font-size: 13px;
    padding: 8px 24px; 
    margin: 2px 5px;
    display: inline-block;
@@ -107,10 +108,42 @@ main {
   margin-right: 7px;
 }
 
+.main-content {
+  text-align:center
+}
+
+.main-content h1 {
+  font-size: 80px;
+}
 
 
 // ここからヘッダー
 footer {
     background-color: rgb(56, 54, 34);
-    height: 300px;
+    height: 200px;
+    padding: 20px 38px;
+    color: snow;
   }
+.footer-logo h1 {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-size: 25px;
+}
+.footer-menulist {
+  float:left;
+  font-size: 15px;
+  // background-color: fuchsia;
+  padding-left: 35px;
+}
+.footer-menulist p {
+  margin: 13px 8px;
+}
+.footer-btnlist {
+  float:left;
+  font-size: 15px;
+  // background-color: cyan;
+  padding-left: 40px;
+}
+.footer-btnlist p {
+  margin: 13px 8px;
+}
