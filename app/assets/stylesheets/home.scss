@@ -41,9 +41,15 @@ header {
   letter-spacing: 2px;
 }
 
+.header-right a:hover  {
+  background-color: tan;
+}
+
 // ここからメイン
 main {
   height: auto;
+  background-color: tan;
+
 }
 
 // トップラッパー
@@ -110,12 +116,18 @@ main {
 
 // メインテキスト
 .main-text {
-  text-align:center
+  background-color: snow;
+  margin: 0px 250px;
 }
 
-.main-text h1 {
-  font-size: 80px;
+.text-box {
 }
+
+.text-box h1 {
+  font-size: 20px;
+  margin: 0px;
+}
+
 
 
 // ここからヘッダー
@@ -126,25 +138,39 @@ footer {
     color: snow;
   }
 .footer-logo h1 {
+    float:left;
     margin-top: 0px;
     margin-bottom: 4px;
     font-size: 25px;
 }
+
 .footer-menulist {
-  float:left;
+  float:right;
   font-size: 15px;
   // background-color: fuchsia;
   padding-left: 35px;
 }
 .footer-menulist p {
-  margin: 13px 8px;
+  margin:13px 70px 0px 0px ;
+  padding: 2px 12px ;
+}
+.footer-menulist p:hover  {
+  color: rgb(56, 54, 34);
+  background-color: snow;
+  border-radius: 4px;
 }
 .footer-btnlist {
-  float:left;
+  float:right;
   font-size: 15px;
   // background-color: cyan;
   padding-left: 40px;
 }
 .footer-btnlist p {
-  margin: 13px 8px;
+  margin: 13px 80px 0px 0px ;
+  padding: 2px 12px ;
+}
+.footer-btnlist p:hover  {
+  color: rgb(56, 54, 34);
+  background-color: snow;
+  border-radius: 4px;
 }
