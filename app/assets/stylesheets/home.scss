@@ -83,7 +83,7 @@ main {
   }
 .btn{
    font-size: 13px;
-   padding: 8px 24px; 
+   padding: 8px 16px; 
    margin: 2px 5px;
    display: inline-block;
    opacity: 0.8;
@@ -108,11 +108,12 @@ main {
   margin-right: 7px;
 }
 
-.main-content {
+// メインテキスト
+.main-text {
   text-align:center
 }
 
-.main-content h1 {
+.main-text h1 {
   font-size: 80px;
 }
 
