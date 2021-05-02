@@ -5,6 +5,10 @@
 .container {
 }
 
+body {
+  width: 100%;
+}
+
 // ここからヘッダー
 header {
     color: snow;
@@ -21,7 +25,7 @@ header {
   
   font-size: 25px;
   margin: 0px;
-  padding: 11px 38px;
+  padding: 11px 0px 11px 38px ;
   float:left;
 }
 
@@ -29,16 +33,16 @@ header {
   float: right;
   font-size: 15px;
   margin: 0px ;
-  padding: 17px 60px;
+  padding: 17px 60px 17px 0px;
 }
 
 .header-right a {
   margin: 0px 12px;
-  padding: 0px 20px;
+  padding: 0px 17px;
   color: rgb(56, 54, 34);
   background-color:snow;
   border-radius: 4px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .header-right a:hover  {
@@ -48,7 +52,7 @@ header {
 // ここからメイン
 main {
   height: auto;
-  background-color: tan;
+  background-color: moccasin;
 
 }
 
@@ -56,7 +60,7 @@ main {
 .top-wrapper {
     color: snow;
     height: auto;
-    padding: 250px 38px 50px ;
+    padding: 250px 38px 35px ;
     background-image: url(https://media.magic.wizards.com/images/wallpaper/Weatherlight_DAR_1920x1080_Wallpaper.jpg);
     background-size: cover;
     background-position: center;
@@ -73,11 +77,12 @@ main {
 
 .top-wrapper h1{
     opacity: 0.9;
-    font-size:40px;
+    font-size:2.3vw;
     letter-spacing: 5px;
     margin: 0px;
   }
 .top-wrapper p{
+    font-size:vw;
     opacity: 0.8;
     letter-spacing: 2px;
     margin: 0px;
@@ -94,54 +99,53 @@ main {
    display: inline-block;
    opacity: 0.8;
    border-radius: 8px;
+   background-color: rgb(56, 54, 34);
 }
 .btn:hover {
     opacity: 1;
   }
-.btnA {
-    background-color: orchid;
-}
-.btnB {
-    background-color: palegreen;
-}
-.btnC {
-    background-color: royalblue;
-}
-.btnD {
-  background-color: sandybrown;
-}
+
 .fas {
   margin-right: 7px;
 }
 
 // メインテキスト
-.main-text {
-  background-color: snow;
-  margin: 0px 250px;
-}
-
 .text-box {
+  background-color: snow;
+  margin: 0px 5%;
+  text-align:center;
+  padding: 25px 0px ;
 }
 
 .text-box h1 {
+  font-size: 37px;
+  margin: 0px;
+}
+.text-box p {
   font-size: 20px;
   margin: 0px;
 }
 
 
-
 // ここからヘッダー
 footer {
     background-color: rgb(56, 54, 34);
-    height: 200px;
-    padding: 20px 38px;
+    height: 180px;
+    padding: 20px 38px 12px 38px;
     color: snow;
   }
 .footer-logo h1 {
-    float:left;
     margin-top: 0px;
     margin-bottom: 4px;
     font-size: 25px;
+}
+
+.footer-left {
+  float:left;
+}
+
+.area1 {
+  padding: 40px 20px;
 }
 
 .footer-menulist {
@@ -154,11 +158,7 @@ footer {
   margin:13px 70px 0px 0px ;
   padding: 2px 12px ;
 }
-.footer-menulist p:hover  {
-  color: rgb(56, 54, 34);
-  background-color: snow;
-  border-radius: 4px;
-}
+
 .footer-btnlist {
   float:right;
   font-size: 15px;
@@ -169,7 +169,8 @@ footer {
   margin: 13px 80px 0px 0px ;
   padding: 2px 12px ;
 }
-.footer-btnlist p:hover  {
+
+.footer-list p:hover {
   color: rgb(56, 54, 34);
   background-color: snow;
   border-radius: 4px;
