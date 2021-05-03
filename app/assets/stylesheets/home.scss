@@ -7,6 +7,7 @@
 
 body {
   width: 100%;
+  margin: 0px;
 }
 
 // ここからヘッダー
@@ -15,6 +16,7 @@ header {
     background-color: rgb(56, 54, 34);
     height: 60px;
     width: 100%;
+    opacity: 0.85;
 
     position: fixed;
     top: 0px;
@@ -22,7 +24,6 @@ header {
   }
 
 .header-logo {
-  
   font-size: 25px;
   margin: 0px;
   padding: 11px 0px 11px 38px ;
@@ -33,7 +34,7 @@ header {
   float: right;
   font-size: 15px;
   margin: 0px ;
-  padding: 17px 60px 17px 0px;
+  padding: 18px 40px 17px 0px;
 }
 
 .header-right a {
@@ -112,7 +113,7 @@ main {
 // メインテキスト
 .text-box {
   background-color: snow;
-  margin: 0px 5%;
+  margin: 0px 8%;
   text-align:center;
   padding: 25px 0px ;
 }
@@ -145,7 +146,7 @@ footer {
 }
 
 .area1 {
-  padding: 40px 20px;
+  padding: 38px 20px;
 }
 
 .footer-menulist {
